@@ -58,7 +58,7 @@ func TestAddGetDelete(t *testing.T) {
 	require.Equal(t, sql.ErrNoRows, err)
 }
 
-// TestSetAddress проверяет обновление адреса
+// TestSetAddress проверяет обновление адре
 func TestSetAddress(t *testing.T) {
 	// prepare
 	db, err := sql.Open("sqlite", "tracker.db")
